@@ -1,1 +1,0 @@
-# Retele-neuronale_Stancu-Catinca_632AB_Proiect-CNC-AI-Toolbox
