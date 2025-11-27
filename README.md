@@ -1,5 +1,5 @@
 
-# 📘 README – Etapa 3: Analiza și Pregătirea Setului de Date pentru Rețele Neuronale
+# 📘 README 
 
 **Disciplina:** Rețele Neuronale  
 **Instituție:** POLITEHNICA București – FIIR  
@@ -129,9 +129,6 @@ Datele sunt **simulate programatic** pe baza relațiilor empirice cunoscute în 
 ## 5. Fișiere Generate
 
 - dataset_simulare.csv  
-- foldere train/val/test  
-- scripturi preprocesare  
-- acest README.md
 
 ---
 
