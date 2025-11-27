@@ -40,7 +40,15 @@ Datasetul este folosit pentru:
 - validarea modelului
 - generarea soluțiilor Pareto
 - testarea selectorului de scule
+  
+##  Fișiere incluse
 
+- `dataset_description.md` – descriere detaliată a dataset-ului
+- `figures/histograma_Ra.png` – histogramă Ra
+- `figures/distributie_V.png` – histogramă V
+- `figures/heatmap_corelatii.png` – heatmap corelații
+- `schema_dataset.png` – schema dataset-ului
+  
 ##  Dimensiune
 
 - 50 rânduri  
