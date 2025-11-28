@@ -21,7 +21,7 @@
 
 -----
 
-## 1\. Structura Repository-ului Github (Etapa 3)
+## 1. Structura Repository-ului Github (Etapa 3)
 
 ```text
 cnc-ai-toolbox/
@@ -61,7 +61,7 @@ cnc-ai-toolbox/
 
 -----
 
-## 2\. Descrierea Setului de Date
+## 2. Descrierea Setului de Date
 
 Datasetul este folosit pentru:
 
@@ -104,7 +104,7 @@ Datele respectă relațiile empirice cunoscute:
 
 -----
 
-## 3\. Analiza Exploratorie a Datelor (EDA)
+## 3. Analiza Exploratorie a Datelor (EDA)
 
 ### 3.1 Statistici descriptive
 
@@ -118,7 +118,7 @@ Datele respectă relațiile empirice cunoscute:
 
 -----
 
-## 4\. Preprocesarea Datelor
+## 4. Preprocesarea Datelor
 
 Procesul este automatizat în scriptul `src/preprocessing/preprocess.py`.
 
@@ -149,7 +149,7 @@ Datele procesate sunt salvate în format CSV fără antet (header) pentru compat
 
 -----
 
-## 5\. Fișiere Generate
+## 5. Fișiere Generate
 
   - **Raw:** `data/raw/dataset_simulare.csv`
   - **Processed Scalers:** `data/processed/scaler_x.pkl`, `data/processed/scaler_y.pkl`
@@ -157,7 +157,7 @@ Datele procesate sunt salvate în format CSV fără antet (header) pentru compat
 
 -----
 
-## 6\. Stare Etapă
+## 6. Stare Etapă
 
   - [x] Structură repository organizată conform cerințelor.
   - [x] Script de generare date implementat și rulat (1000 mostre).
