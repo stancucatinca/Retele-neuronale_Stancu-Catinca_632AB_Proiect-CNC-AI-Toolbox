@@ -19,24 +19,40 @@ Acest document descrie activitățile realizate în **Etapa 3**, în care se ana
 
 ```
 cnc-ai-toolbox/
-├── README.md
-├── docs/
-│   └── datasets/
+├── README.md                       # Documentația principală a proiectului
+├── requirements.txt                # Lista bibliotecilor necesare (pandas, torch, etc.)
+├── config/
+│   └── settings.json               # Fișier de configurare pentru căi și hiperparametri
 ├── data/
 │   ├── raw/
+│   │   └── dataset_simulare.csv    # Datele brute generate de simulare
 │   ├── processed/
+│   │   ├── scaler_x.pkl            # Scalerul salvat pentru input-uri
+│   │   └── scaler_y.pkl            # Scalerul salvat pentru output-uri (Ra)
 │   ├── train/
+│   │   └── train.csv               # Setul de date pentru antrenare
 │   ├── validation/
+│   │   └── validation.csv          # Setul de date pentru validare
 │   └── test/
-├── src/
-│   ├── preprocessing/
-│   ├── data_acquisition/
-│   └── neural_network/
-├── config/
-└── requirements.txt
+│       └── test.csv                # Setul de date pentru testare
+├── docs/
+│   └── datasets/                   # Documentație suplimentară despre date (opțional)
+├── models/
+│   └── model_v1.pkl                # Modelul rețelei neuronale antrenat (salvat)
+├── reports/                        # Folder generat automat cu rezultatele optimizărilor
+│   ├── Raport_Optimizare_*.txt     # Raport detaliat (human-readable)
+│   └── Solutii_Pareto_*.csv        # Tabel cu soluțiile optime (Excel-ready)
+└── src/
+    ├── data_acquisition/
+    │   └── generate_simulation.py  # Scriptul care generează datele sintetice
+    ├── neural_network/
+    │   ├── model_regression.py     # Definirea arhitecturii rețelei neuronale (clasa CNCModel)
+    │   ├── train_model.py          # Scriptul de antrenare a modelului
+    │   └── predict.py              # Scriptul principal: Interfața, AI + Optimizare Pareto + Raportare
+    └── preprocessing/
+        └── preprocess.py           # Scriptul de curățare, scalare și împărțire a datelor
 ```
 
----
 
 ## 2. Descrierea Setului de Date
 
