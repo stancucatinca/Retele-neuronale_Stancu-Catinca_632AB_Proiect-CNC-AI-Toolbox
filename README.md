@@ -7,7 +7,7 @@
 **Proiect:** CNC-AI Toolbox – Optimizarea parametrilor de tăiere și Selectare Inteligentă a Sculelor  
 **Data:** [20.11.2025]
 
------
+
 
 ## Introducere
 
@@ -19,7 +19,7 @@
 2.  **Prezice Calitatea ($R_a$):** Utilizează o **Rețea Neuronală** antrenată pe date simulate pentru a estima rugozitatea suprafeței înainte de prelucrarea efectivă.
 3.  **Optimizează Procesul:** Identifică cele mai bune combinații de parametri (soluții Pareto) care oferă un timp de execuție minim, menținând în același timp rugozitatea sub limita impusă de utilizator.
 
------
+
 
 ## 1. Structura Repository-ului Github (Etapa 3)
 
