@@ -1,0 +1,14 @@
+{
+    "data_raw": "data/raw/dataset_simulare.csv",
+    "data_train": "data/train/train.csv",
+    "data_val": "data/validation/validation.csv",
+    "data_test": "data/test/test.csv",
+    "scaler_x": "data/processed/scaler_x.pkl",
+    "scaler_y": "data/processed/scaler_y.pkl",
+    "model_save_path": "models/model_v1.pkl",
+    "input_size": 5,
+    "hidden_size": 16,
+    "output_size": 1,
+    "learning_rate": 0.01,
+    "epochs": 500
+}
