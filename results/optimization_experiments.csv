@@ -1,5 +1,0 @@
-Nume,Learning Rate,Batch Size,Hidden Neurons,R2 Score,MSE
-Exp 1 (Baseline),0.01,32,64,0.9987,0.00122
-Exp 2 (Fine Tuning),0.001,32,64,0.9848,0.01428
-Exp 3 (Complex),0.005,32,128,0.998,0.00191
-Exp 4 (Batch 64),0.01,64,64,0.9987,0.00126
